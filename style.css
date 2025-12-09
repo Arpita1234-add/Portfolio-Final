@@ -1,0 +1,236 @@
+/* ----------------------------------------------------
+   GLOBAL COLORS
+------------------------------------------------------*/
+:root {
+  --primary: #EAB308;
+  --primary-light: #FACC15;
+  --bg-light: #FFFBEA;
+  --text-dark: #000000;
+  --text-light: #ffffff;
+}
+
+/* BASE */
+body {
+  background: var(--bg-light);
+  color: var(--text-dark);
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+  background: var(--primary) !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--text-dark) !important;
+  font-weight: 600;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background: linear-gradient(135deg, #EAB308, #FACC15);
+  color: #000 !important;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  animation: fadeUp 1.2s ease-out;
+}
+
+/* PROFILE PHOTO */
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.25);
+  animation: fadeUp 1.4s ease-out;
+}
+
+/* SECTION TITLE */
+.section-title {
+  color: #000 !important;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 28px 0;
+}
+
+/* TIMELINE */
+.timeline {
+  list-style: none;
+  border-left: 3px solid #000 !important;
+  padding-left: 20px;
+}
+
+.timeline li {
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 8px;
+}
+
+.timeline li::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #000 !important;
+  border-radius: 50%;
+  position: absolute;
+  left: -8px;
+  top: 5px;
+}
+
+/* EXPERIENCE LIST */
+.inner-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.inner-list li::before {
+  display: none;
+}
+
+.inner-list {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  margin-top: 10px;
+}
+
+.inner-list li {
+  margin-bottom: 6px;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card p,
+.card li {
+  color: #000 !important;
+}
+
+/* BACK TO TOP BUTTON */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #000 !important;
+  color: #fff !important;
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background: var(--primary);
+  color: #000 !important;
+  font-weight: 600;
+}
+
+/* ----------------------------------------------------
+   FADE-IN ANIMATION
+------------------------------------------------------*/
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ----------------------------------------------------
+   GLOBAL SECTION SPACING FIX
+------------------------------------------------------*/
+section .section-title {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+section .section-title {
+  margin-bottom: 12px !important;
+}
+
+section p {
+  margin-bottom: 10px !important;
+}
+
+.timeline li {
+  margin-bottom: 14px !important;
+}
+
+section {
+  padding-top: 28px !important;
+  padding-bottom: 28px !important;
+}
+
+#experience {
+  padding-bottom: 10px !important;
+}
+
+#projects {
+  padding-top: 20px !important;
+}
+
+#projects {
+  padding-bottom: 10px !important;
+}
+
+#projects .card:last-child {
+  margin-bottom: 0 !important;
+}
+
+#contact {
+  padding-top: 10px !important;
+}
+
+#about p:last-child {
+  margin-bottom: 0 !important;
+}
+
+#about {
+  padding-bottom: 20px !important;
+}
+
+#experience {
+  padding-top: 5px !important;
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+  width: 22px !important;
+  height: 2px !important;
+  background-color: #000 !important;
+  display: block !important;
+  box-shadow:
+    0 7px 0 0 #000,
+    0 14px 0 0 #000 !important;
+}
+
+.accordion-button {
+  color: #000 !important;
+}
+
+.accordion-button::after {
+  filter: brightness(0) !important;
+}
+
+#contact a {
+  color: #000 !important;
+  text-decoration: underline;
+}
