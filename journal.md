@@ -2,6 +2,8 @@ Journal :
 Link to recording : https://pdx.zoom.us/rec/share/RKzXt3SohVFh_ieG79hKPsAX32f4sul2E7ATLG1l_K3TlW44hgrR2Xee-XLJ-ZWJ.KnSuTD5JQrfl66bp
 
 My portfolio: https://arpita1234-add.github.io/Portfolio-Final/
+
+Github repo: https://github.com/Arpita1234-add/Portfolio-Final
 #Portfolio
 
 1. Planning 
