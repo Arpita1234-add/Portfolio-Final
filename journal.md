@@ -1,6 +1,9 @@
 Journal :
 Link to recording : https://pdx.zoom.us/rec/share/RKzXt3SohVFh_ieG79hKPsAX32f4sul2E7ATLG1l_K3TlW44hgrR2Xee-XLJ-ZWJ.KnSuTD5JQrfl66bp
 
+Updated link : https://pdx.zoom.us/rec/share/O72NK1CQv6r44jt6J8qzJPCWleRYsjEdVOc2FKYCQ4pUn15HSb2MbNboa0GC9k_r.9xmJlkdzcDrfOykG
+
+
 My portfolio: https://arpita1234-add.github.io/Portfolio-Final/
 
 Github repo: https://github.com/Arpita1234-add/Portfolio-Final
